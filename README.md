@@ -1,31 +1,27 @@
-# Wireshark Profiles
+# Introduction
 
-Use this drop-in profile to instantly configure Wireshark for 802.11 packet analysis, or use it as a starting point for your own custom configuration!
+This Wireshark profile is designed to make Wi-Fi packet analysis is designed to focus on simplicity and readability. It is a fork of the MetaGeek Wireshark Configuration Profile.
 
-![MetaGeekConfiguration](ReadmeImages/MetaGeek_Configuration_Profile.png)
+It is based on the original frame colors from MetaGeek Eye P.A., with significant updates being added with the release of MetaGeek Tonic (now MetaGeek Chanalyzer 6).
 
-## Features
-MetaGeek Frame Coloring
-Watch 802.11 stations exchange frames! Management frames are colored purple, control frames are orange, and data frames are blue, making frame exchanges super mega easy to track.
+## Colors for Frame Types
+Management frames are colored purple, control frames are orange, and data frames are blue, making frame exchanges super mega easy to track.
 
 ### Bad Frame Coloring
 Malformed frames and frames that fail checksums are colored red.
 
-### EAP and EAPOL Frame Coloring
-See 4-way handshakes and RADIUS exchanges! Cool!
-
 ### Frame Sub-Type Column
-See frame sub-types in a column!
+See frame Sub-Types in a clear and readible column.
 
-![FrameTypes](ReadmeImages/Frame_Types.png)
+![FrameTypes](Readme/Frame_Types.png)
 
 ### Marked Retries
-The frame type column marks retries without changing the color. Nice! 
+The frame type column marks retries without changing the color.
 
-![Retries](ReadmeImages/Retries.png)
+![Retries](Readme/Retries.png)
 
 ### Hide Frame Types
-"Hide Bad", "Hide Data", "Hide Management", and "Hide Control" shortcut buttons mean that there are 4 less regular expressions for you to remember and type. You're welcome!
+"Hide Bad", "Hide Data", "Hide Management", and "Hide Control" shortcut buttons mean that there are 4 less regular expressions for you to remember and type.
 
 ### AP/Client Conversation Shortcut
 Apply the AP/Client Conversation filter, and copy/paste in your AP and client MAC addresses to quickly filter down to a specific conversation.
@@ -35,12 +31,12 @@ Replace cc:cc:cc:cc:cc:cc with client MAC address
 
 
 ## Installation Instructions
-1. Download the MG_Wi-Fi folder
 
-2. Add the folder to the "profiles" folder.
+On macOS:
 
-*Note: On macOS, you can do this by opening Wireshark, enter CMD+Shift+A, then click directory path on bottom right of dialog box. Copy unzipped folder into profiles folder in that directory*
-
-4. Activate the profile in the lower right corner of Wireshark.
-
-![Select Profile](ReadmeImages/select_profile.png)
+1. Download the profile.
+2. Open Wireshark.
+3. Press `Command` + `Shift` + `A`.
+4. Click the directory path in the lower right.
+5. Copy the unzipped files into the directory.
+6. Activate the profile in the lower right corner of Wireshark.
