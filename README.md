@@ -4,6 +4,18 @@ This Wireshark profile is designed to make Wi-Fi packet analysis is designed to 
 
 It is based on the original frame colors from MetaGeek Eye P.A., with significant updates being added with the release of MetaGeek Tonic (now MetaGeek Chanalyzer 6).
 
+## Installation Instructions
+
+On macOS:
+
+1. Download the .zip file the [Releases page](https://github.com/PotatoFi/PotatoFrames/releases).
+2. Unzip the file, which will produce a **PotatoFrames** folder.
+3. Open Wireshark.
+4. Press `Command` + `Shift` + `A`.
+5. Click the directory path in the lower right to open the **Profiles** folder.
+6. Drag the **PotatoFrames** folder into the **Profiles** folder.
+7. Activate the profile in the lower right corner of Wireshark.
+
 ## Colors for Frame Types
 Management frames are colored purple, control frames are orange, and data frames are blue, making frame exchanges super mega easy to track.
 
@@ -28,15 +40,3 @@ Apply the AP/Client Conversation filter, and copy/paste in your AP and client MA
 
 Replace aa:aa:aa:aa:aa:aa with AP radio MAC address
 Replace cc:cc:cc:cc:cc:cc with client MAC address
-
-
-## Installation Instructions
-
-On macOS:
-
-1. Download the profile.
-2. Open Wireshark.
-3. Press `Command` + `Shift` + `A`.
-4. Click the directory path in the lower right.
-5. Copy the unzipped files into the directory.
-6. Activate the profile in the lower right corner of Wireshark.
