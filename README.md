@@ -4,6 +4,14 @@ This Wireshark profile is designed to make Wi-Fi packet analysis is designed to 
 
 It is based on the original frame colors from MetaGeek Eye P.A., with significant updates being added with the release of MetaGeek Tonic (now MetaGeek Chanalyzer 6).
 
+Transform Wireshark from a boring white wall of test...
+
+![Before](Readme/before.png)
+
+...to a clean and simple UI with industry-standard colors to identify each frame type.
+
+![After](Readme/after.png)
+
 ## Installation Instructions
 
 On macOS:
@@ -17,25 +25,31 @@ On macOS:
 7. Activate the profile in the lower right corner of Wireshark.
 
 ## Colors for Frame Types
+
 Management frames are colored purple, control frames are orange, and data frames are blue, making frame exchanges super mega easy to track.
 
 ### Bad Frame Coloring
+
 Malformed frames and frames that fail checksums are colored red.
 
 ### Frame Sub-Type Column
+
 See frame Sub-Types in a clear and readible column.
 
 ![FrameTypes](Readme/Frame_Types.png)
 
 ### Marked Retries
+
 The frame type column marks retries without changing the color.
 
 ![Retries](Readme/Retries.png)
 
 ### Hide Frame Types
+
 "Hide Bad", "Hide Data", "Hide Management", and "Hide Control" shortcut buttons mean that there are 4 less regular expressions for you to remember and type.
 
 ### AP/Client Conversation Shortcut
+
 Apply the AP/Client Conversation filter, and copy/paste in your AP and client MAC addresses to quickly filter down to a specific conversation.
 
 Replace aa:aa:aa:aa:aa:aa with AP radio MAC address
