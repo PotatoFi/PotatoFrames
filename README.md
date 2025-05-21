@@ -4,7 +4,7 @@ This Wireshark profile is designed to make Wi-Fi packet analysis is designed to 
 
 It is based on the original frame colors from MetaGeek Eye P.A., with significant updates being added with the release of MetaGeek Tonic (now MetaGeek Chanalyzer 6).
 
-Transform Wireshark from a boring white wall of test...
+Transform Wireshark from a boring white wall of text...
 
 ![Before](Readme/before.png)
 
